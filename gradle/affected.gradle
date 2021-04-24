@@ -1,0 +1,9 @@
+apply plugin: "com.github.takahirom.affectedtasksplugin"
+
+affectedModuleDetector {
+    baseDir = "${project.rootDir}"
+//    logFilename = "affected-module.log"
+//    logFolder = "${project.rootDir}"
+    specifiedBranch = "main"
+    compareFrom = "SpecifiedBranchCommit"
+}

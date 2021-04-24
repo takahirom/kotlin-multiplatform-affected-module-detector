@@ -1,0 +1,4 @@
+rootProject.name = 'kotlin-multiplatform-affected-module-detector-sample'
+include 'module-a'
+include 'module-b'
+include 'module-c'
